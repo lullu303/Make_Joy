@@ -3,6 +3,7 @@
 <title>Weather</title>
     <meta charset="utf-8">
     <script src="http://code.jquery.com/jquery-1.7.min.js" ></script>
+    <link rel="stylesheet" href="weather_api.css" />
 </head>
 <script>
     /*
@@ -11,25 +12,27 @@
     })
     */
     // $.getJSON('https://api.openweathermap.org/data/2.5/forecast?id=1835847&appid=427e3143218a74e94db4542b0c4f4a47&units=metric',
-    $.getJSON('https://api.openweathermap.org/data/2.5/weather?id=1835847&appid=427e3143218a74e94db4542b0c4f4a47',
+    $.getJSON('https://api.openweathermap.org/data/2.5/weather?id=1835847&appid=427e3143218a74e94db4542b0c4f4a47&units=metric',
     function(data){
         //data로 할일..
         // alert(data.list[0].main.temp_min);
 
         var $cTemp = data.main.temp;
-        var $minTemp = data.list[0].main.temp_min;
+        var $minTemp = data.main.$temp_min;
         var $maxTemp = data.main.temp_max;
-        var $cDate = data.dt;
+        var $now = new Date(Date.now());
+        var $cDate = $now.getFullYear() + '/' + $now.getMonth() + '/' +$now.getDate() + '/' + $now.getHours() + ':' + $now.getMinutes();
         var $wIcon = data.weather[0].icon;
         //Date.now(); == $.now
         // new Date(Date.now());
         // .getFullYear() 연도
-        // .getMonth(), .getDate()
+        // .getMonth(), => 0이 1월
+        // .getDate()
         // .getHours() 시간 .getMinutes() 분
         // 
 
-        var $now = new Date(Date.now());
-        alert($now.getFullYear() + '/' + $now.getMonth() + '/' +$now.getDate() + '/' + $now.getHours() + ':' + $now.getMinutes());
+        
+        // alert($now.getFullYear() + '/' + $now.getMonth()+1 + '/' +$now.getDate() + '/' + $now.getHours() + ':' + $now.getMinutes());
 
 
         //A.appendTo(B) b요소의 내용의 뒤에 a를 추가
@@ -46,7 +49,7 @@
 </script>
 <body>
 <h1>weather api</h1>
-<h2>- 날씨예보</h2>
+<h2>- 날씨 정보</h2>
 <div class="ctemp">현재 온도: </div>
 <div class="clowtemp">최저 온도: </div>
 <div class="chightemp">최고 온도: </div>
