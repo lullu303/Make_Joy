@@ -1,17 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+/* *{
+    box-sizing: border-box;
+    font-family: 'Varela', sans-serif;
+    background-size: cover;
+    transition : background-image 0.2s ease-in-out;
+    color: rgba(255, 255, 255, 0.85);
 
-@media screen and (min-width:768px) {
-    .data {
-      display:flex;
-      justify-content: space-evenly;
-      margin-bottom: 50px;
-      margin-top: 30px;
-      text-align: center;
-    }
-    .header-div {
-      margin: 20px 90px 20px 90px;
-    }
-    section {
-      text-align: center;
-    }
-  }
+  } */
+body {
+    /* background-color: orange; */
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Varela', sans-serif;
+    background-size: cover;
+    transition : background-image 0.2s ease-in-out;
+    color: rgba(255, 255, 255, 0.85);
+    background-image: url('https://source.unsplash.com/v9bnfMCyKbg/1600x900');
+}
+    
+h1 {
+    color : black;
+    /* background-color: blue; */
+
+    font-size: 50px;
+}
+h2 {
+    color : black;
+    font-size: 40px;
+    
+}
+div.ctemp {
+    text-align: center;
+    color : black;
+    font-size: 30px;
+}
+div.clowtemp {
+    text-align: center;
+    color : black;
+    font-size: 30px;
+}
+div.chightemp {
+    text-align: center;
+    color : black;
+    font-size: 30px;
+}
+div.cicon {
+    text-align: center;
+    color : black;
+    font-size: 30px;
+    
+} 

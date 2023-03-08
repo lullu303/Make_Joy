@@ -18,7 +18,7 @@
         // alert(data.list[0].main.temp_min);
 
         var $cTemp = data.main.temp;
-        var $minTemp = data.main.$temp_min;
+        var $minTemp = data.main.temp_min;
         var $maxTemp = data.main.temp_max;
         var $now = new Date(Date.now());
         var $cDate = $now.getFullYear() + '/' + $now.getMonth() + '/' +$now.getDate() + '/' + $now.getHours() + ':' + $now.getMinutes();
@@ -44,11 +44,12 @@
         $('.chightemp').append($maxTemp)
         $('h2').prepend($cDate);
         $('.cicon').append('<img src="https://openweathermap.org/img/wn/' + wIcon + '@2x.png" />')
+        // this.img_url='http://openweathermap.org/img/wn/'+this.W_state.icon+'@2x.png';
         //<img src="https://openweathermap.org/img/wn/10d@2x.png">
     })
 </script>
 <body>
-<h1>weather api</h1>
+<h1>오늘의 날씨</h1>
 <h2>- 날씨 정보</h2>
 <div class="ctemp">현재 온도: </div>
 <div class="clowtemp">최저 온도: </div>
