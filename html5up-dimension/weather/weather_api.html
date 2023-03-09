@@ -29,11 +29,6 @@
         // .getMonth(), => 0이 1월
         // .getDate()
         // .getHours() 시간 .getMinutes() 분
-        // 
-
-        
-        // alert($now.getFullYear() + '/' + $now.getMonth()+1 + '/' +$now.getDate() + '/' + $now.getHours() + ':' + $now.getMinutes());
-
 
         //A.appendTo(B) b요소의 내용의 뒤에 a를 추가
         //A.append(B) a요소의 내용의 뒤에 b를 추가
@@ -44,17 +39,19 @@
         $('.chightemp').append($maxTemp)
         $('h2').prepend($cDate);
         $('.cicon').append('<img src="https://openweathermap.org/img/wn/' + $wIcon + '@2x.png" />')
-        // this.img_url='http://openweathermap.org/img/wn/'+this.W_state.icon+'@2x.png';
-        //<img src="https://openweathermap.org/img/wn/10d@2x.png">
-    })
+       
+    }
+)
 </script>
 <body>
-<h1>오늘의 날씨</h1>
-<h2>- 날씨 정보</h2>
+<h1>WEATHER KOR/SEOUL</h1>
+<h1></h1>
+<h2></h2>
 <div class="ctemp">현재 온도: </div>
 <div class="clowtemp">최저 온도: </div>
 <div class="chightemp">최고 온도: </div>
-<div class="cicon">아이콘 : </div>
+<div class="cicon"></div>
 <!-- HTML -->
 </body>
 </html>
+<script type="text/javascript" src="weather_api.js"></script>

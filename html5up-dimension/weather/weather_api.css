@@ -1,12 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-/* *{
-    box-sizing: border-box;
-    font-family: 'Varela', sans-serif;
-    background-size: cover;
-    transition : background-image 0.2s ease-in-out;
-    color: rgba(255, 255, 255, 0.85);
-
-  } */
 body {
     /* background-color: orange; */
     text-align: center;
@@ -15,15 +7,26 @@ body {
     background-size: cover;
     transition : background-image 0.2s ease-in-out;
     color: rgba(255, 255, 255, 0.85);
-    background-image: url('https://source.unsplash.com/v9bnfMCyKbg/1600x900');
-}
+    /* background-image: url('https://source.unsplash.com/v9bnfMCyKbg/1600x900'); */
+    background-image: url('https://source.unsplash.com/PEm_sLmJT-w/1600x900');
     
+} 
+
 h1 {
     color : black;
-    /* background-color: blue; */
-
     font-size: 50px;
+    /* background-color: blue; */
+    /* width: 350px;
+    padding: 30px;
+    border-radius: 10px;
+    justify-content: center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
 }
+
 h2 {
     color : black;
     font-size: 40px;

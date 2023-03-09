@@ -17,3 +17,31 @@
     "id":1835847,
     "name":"Seoul",
     "cod":200}
+
+
+    {}"coord":{"lon":127,"lat":37.5833},
+    "weather":[{
+        "id":804,
+        "main":"Clouds",
+        "description":"overcast clouds",
+        "icon":"04d"}],
+    "base":"stations",
+    "main":{"temp":11.77,
+            "feels_like":11.07,
+            "temp_min":11.77,
+            "temp_max":11.77,
+            "pressure":1016,
+            "humidity":79,
+            "sea_level":1016,
+            "grnd_level":1011},
+    "visibility":10000,
+    "wind":{"speed":1.66,
+            "deg":230,
+            "gust":2.4},
+    "clouds":{"all":100},
+    "dt":1678327972,
+    "sys":{"type":1,"id":5509,"country":"KR","sunrise":1678312399,"sunset":1678354343},
+    "timezone":32400,
+    "id":1835847,
+    "name":"Seoul",
+    "cod":200}
