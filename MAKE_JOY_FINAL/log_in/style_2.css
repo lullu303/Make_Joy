@@ -1,0 +1,68 @@
+body {
+	background-color: rgb(255, 255, 255);
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	width: 350px;
+	margin: 50px auto;
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	border-radius: 5px;
+}
+
+h1 {
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 30px;
+	color: rgb(61, 81, 123);
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+label {
+	font-size: 14px;
+	color: #999;
+	margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"] {
+	padding: 10px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.1);
+	width: 100%;
+}
+
+button[onclick] {
+	background-color: rgb(102, 176, 223);
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.options {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	font-size: 14px;
+	color: #999;
+}
+
+.options question {
+	text-decoration: none;
+	color: #4b94e6;
+}
+
+.options question:hover {
+	text-decoration: underline;
+}
