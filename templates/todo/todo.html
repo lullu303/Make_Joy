@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content1 %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'todo.css' %}">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="task-input">
+           <a href="../4_hye_prowea/profile.html"> <img class = "icon1" src="home.svg" alt="icon1"></a>
+            <input type="text" placeholder="작업 추가하기">
+        </div>
+        <div class="controls">
+            <div class="filters">
+                <span id="all" class="active">
+                    모두 표시
+                </span>
+                <span id="pending">진행중</span>
+                <span id="completed">완료됨</span>
+            </div>
+            <button class="clear-btn">모두 지우기</button>
+        </div>
+        <ul class="task-box"></ul>
+    </div>
+    <script src ="{% static 'todo.js' %}"></script>
+</body>
+
+</html>
+{% endblock %}
