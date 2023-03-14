@@ -23,7 +23,7 @@
         var $minTemp = data.main.temp_min;
         var $maxTemp = data.main.temp_max;
         var $now = new Date(Date.now());
-        var $cDate = $now.getFullYear() + '/' + $now.getMonth() + '/' +$now.getDate() + '/' + $now.getHours() + ':' + $now.getMinutes();
+        var $cDate = $now.getFullYear() + '/' + ($now.getMonth()+1) + '/' +$now.getDate() + '/' + $now.getHours() + ':' + $now.getMinutes();
         var $wIcon = data.weather[0].icon;
         //Date.now(); == $.now
         // new Date(Date.now());
