@@ -1,8 +1,8 @@
 # 다이어리/캘린더/TODOLIST/WEATHER
 ## vscode 폴더를 아래와 같이 세팅해주셔야 합니다
-![image](https://user-images.githubusercontent.com/109124273/224237717-63b0c277-44db-42f4-81dd-21211356ee22.png)
+![image](https://user-images.githubusercontent.com/109124273/224891867-aad2d4e3-0bf2-4ff9-b759-c86c9d2936c8.png)
 
-> Calender : 캘린더 부분 (김동영님) </br>
+> calender1 : 캘린더 부분 (김동영님) </br>
 > config : DjangoDB  </br>
 > image  </br>
 > log_in : 로그인 화면, 가장 먼저 실행될 html파일 (김석규님)  </br>
