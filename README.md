@@ -1,5 +1,6 @@
 # Diary/Calender/TODO/Weather
 ## vscode 폴더를 아래와 같이 세팅해주셔야 합니다
+![image](https://user-images.githubusercontent.com/109124273/225230758-5311ab8c-9da9-48da-a45e-d5b40f471894.png)
 
  
 > calender1 : 캘린더 부분 (김동영님) </br>
