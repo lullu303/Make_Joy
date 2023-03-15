@@ -11,5 +11,4 @@
 > weather : 날씨 api를 활용한 실시간 날씨데이터 (박지혜님)  </br>
 
 > db.sqlite3 : DjangoDB  </br>
-> index.html : 템플릿  </br>
 > manage.py : DjangoDB  </br>
